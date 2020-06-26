@@ -8,11 +8,11 @@ variable "ami" {
 }
 
 variable "instance_count" {
-  default = "2"
+  default = "32"
 }
 
 variable "instance_type" {
-  default = "t3.micro"
+  default = "t3.medium"
 }
 
 variable "aws_region" {
